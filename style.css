@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+header{
+    width: 100%;
+    height: 64px;
+    background-color: #330768;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    float: left;
+    padding-left: 0px;
+    
+}
+.logo{
+    width: 623px;
+    height: 64px;
+}
+
+
+
+.fa-house-chimney a:hover{
+    color:#ffc107;
+} 
+
+.navbar ul li{
+list-style-type: none;
+
+padding: 25px;
+font-size :20px;
+
+
+}
+.navbar ul {
+    display: flex;
+   
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.gap{
+    padding-right:5px;
+}
+
+
+.navbar a:hover{
+    color: #ffc107;
+}
+.homepage img{
+    width: 100%;
+    height: 90vh;
+}
+.subclass{
+    width: 100%;
+    height: 592px;
+    display: flex
+ }
+ .first-image img{
+    width: 647px;
+    height: 592.49px;
+ }
+ .second-image img{
+    width:615.5px ;
+    height:592.49px ;
+ }
+.wrapper{
+    width: 1270;
+    height: 302px;
+    display: flex;
+    background-color: #6f3096;
+}
+.words{
+    font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    height: 123.5px;
+    background-color: #6f3096;
+    font-weight: 300px;
+}
+.words h1{
+
+    color: white;
+    text-align: center;
+    padding-top: 40px; 
+    
+}
+.end{
+    background-color: #330768;
+    width: 100%;
+    height: 73px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-menu li{
+    padding-top: 3px;
+}
+.footer-menu ul li{
+   display: inline-block;
+    padding-bottom: 30px;
+    font-size: 20px;
+    
+} 
+.footer-menu ul{
+    padding-left: 20px;
+    
+}
+.footer-menu ul li a{
+    color: white;
+    text-decoration: none;
+    
+
+}
+.footer-menu li{
+    padding-right: 15px;
+    
+}
+
+
+.footer-icons{
+    width: 180px;
+    height: 36px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    display: flex;
+}
+.footer-icons ul{
+    display: flex;
+    list-style: none;
+}
+.footer-icons li{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    font-size: 14px;
+    background-color: #ffc107;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+
+.footer-menu p{
+    margin-bottom: 30px;
+    padding-left: 10px;
+    color: #adb5bd;
+}
+.footer-menu p a{
+    color: #0d6efd;
+}
+.footer-menu p a:hover{
+    color: #234a85;
+}
